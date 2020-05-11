@@ -110,12 +110,12 @@ public class PageCreation {
                 .append("<head>")
                 .append("<meta http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">")
                 .append("<title>")
-                .append("阳光之城社区 - UniBan CDN镜像站点")
+                .append("Minecraft正版联盟 - UniBan CDN镜像站点")
                 .append("</title>")
                 .append("<meta name=\"baidu-site-verification\" content=\"IumhkbbtBc\" />")
                 .append("</head>")
                 .append("<body>");
-        builder.append("<h1>").append("阳光之城社区 - SunnySide Community").append("</h1>")
+        builder.append("<h1>").append("Minecraft正版联盟 - UniBan CDN镜像站点").append("</h1>")
                 .append("<h2>").append("UniBan Mirror - CDN镜像服务站").append("</h2>")
                 .append("<hr />")
                 .append("<p>本镜像站每 10 分钟抓取一次数据，由于CDN缓存，更新时间可能长于 10 分钟。</p>")
@@ -126,7 +126,7 @@ public class PageCreation {
     private void buildFooter(){
         builder.append("<hr />")
                 .append("<p>想要将自己的UniBan封禁列表添加到此镜像站? 请将您的列表提交到<a href=\"https://uniban.eumc.cc\">UniBan 公开订阅列表库</a>后耐心等待。</p>")
-                .append("<p>如果长时间未同步您的封禁列表，请联系Ghost_chu(admin@mcsunnyside.com)[2908803755]，提醒我进行同步。</p>");
+                .append("<p>如果长时间未同步您的封禁列表，请联系https://github.com/MCZBUnion/UniBanMirror管理员，提醒进行同步。</p>");
         builder.append("<hr />")
                 .append("<p>常见错误：</p>")
                 .append("<ul>")
